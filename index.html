@@ -8,36 +8,36 @@
 </head>
    
 <body>
+    <div class="container">
 
+        <header>
+            <img src="morango.png" alt="icone de morango">
+            <h1>Cadastro de produtos</h1>
+        </header>
 
-<header>
-    <img src="morango.png" alt="icone de morango">
-    <h1>Cadastro de produtos</h1>
-</header>
+        <div>
 
-<div>
+             <p>Informe nos campos a seguir os dados do produto a ser cadastrado</p>
 
-    <p>Informe nos campos a seguir os dados do produto a ser cadastrado</p>
-
-    <form action="https://api-dwi.herokuapp.com/api/examples" method="post">
-        <input placeholder="Nome do Produto" type="text" name="produtoNome" id="">
-        <input placeholder="Preço do produto" type="number" name="produtoPreco" id="">
-        <hr>
-        <input placeholder="Quantidade" type="number" name="produtoquantidade" id="">
-        <select name="produtoCategoria" id="">
-            <option value="">Selecione a categoria</option>
-            <option value="frutas">Frutas</option>
-            <option value="verduras">Verduras</option>
-            <option value="doces">Doces</option>
-            <option value="salgados">Salgados</option>
+             <form action="https://api-dwi.herokuapp.com/api/examples" method="post">
+                <input placeholder="Nome do Produto" type="text" name="produtoNome" id="">
+                <input placeholder="Preço do produto" type="number" name="produtoPreco" id="">
+                <hr>
+                <input placeholder="Quantidade" type="number" name="produtoquantidade" id="">
+                <select name="produtoCategoria" id="">
+                    <option value="">Selecione a categoria</option>
+                    <option value="frutas">Frutas</option>
+                    <option value="verduras">Verduras</option>
+                    <option value="doces">Doces</option>
+                    <option value="salgados">Salgados</option>
         </select>
         <hr>
         <button class= "botao-enviar" type="submit">CADASTRAR</button>
 
-    </form>
+        </form>
 
-</div>
-
+        </div>
+    </div>
 </body>
 
 

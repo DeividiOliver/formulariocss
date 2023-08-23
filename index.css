@@ -3,21 +3,23 @@
     font-family: Arial, Helvetica, sans-serifs;
  }
 
- body {
+ .container {
     background-color: rgb(204, 204, 204);
-
+    border: solid black 2px; 
+    padding: 20px;
  }
 
-header > h1 {
+header>h1 {
             
     display: inline;
     color: darkred;
-    font-family: Arial, Helvetica, sans-serif;
     
 }
-    .botao-enviar {
+.botao-enviar {
         background-color: darkred;
         color: white;
     }
+
+
 
    
